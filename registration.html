@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img
+      src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t39.30808-6/298294765_119669350778887_3878349397953583338_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHx1gthzZS_EUfjf_P9BzNpgcJbB3ie1kGBwlsHeJ7WQdkJV8RG1Ut8L_HggNh14slxgrcOJZQWbK5pIR7nvX81&_nc_ohc=9Tt4utpiAHgAX9_ae_q&_nc_ht=scontent.fmnl9-3.fna&oh=00_AfADCKUAfth2wIoBvJGDFLEIvphpHUzc3e9XfPGCKRtvbw&oe=64637B95"
+      width="500px"
+    /><br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic Information</h2>
+    <form>
+      <label for="last_name">Last name:</label><br />
+      <input type="text" id="last_name" name="last_name" /><br />
+      <label for="first_name">First name: </label><br />
+      <input type="text" id="first_name" name="first_name" /><br />
+      <label for="Place_of_birth">Place of birth: </label><br />
+      <input type="text" id="Place_of_birth" name="Place_of_birth" /><br />
+      <label for="Birthdate">Birthdate: </label><br />
+      <input type="date" /><br />
+      <p><b>Gender</b></p>
+      <input type="radio" name="Gender" value="Male" />Male
+      <input type="radio" name="Gender" value="Male" />Female
+      <input type="radio" name="Gender" value="Other" />Other<br />
+      <p><b>Civil Status</b></p>
+      <select name="dropdown">
+        <option value="Single" selected>Single</option>
+        <option value="Married">Married</option>
+        <option value="Widowed">Widowed</option>
+        <option value="Separated">Separated</option></select
+      ><br />
+      <label
+        for="Mother's_maiden_name
+      "
+        >Mother's maiden name:</label
+      ><br />
+      <input
+        type="text"
+        id="Mother's_maiden_name"
+        name="Mother's_maiden_name"
+      /><br />
+      <label
+        for="Father's_name
+      "
+        >Father's name:</label
+      ><br />
+      <input type="text" id="Father's_name" name="Father's_name" /><br />
+      <h2>Contact Information</h2>
+      <label for="email">Email address: </label>
+      <input
+        type="email"
+        id="email"
+        placeholder="ex. mariciaborja@gmail.com"
+      /><br />
+      <br />
+      <label for="number">Contact number: </label>
+      <input type="number" id="number" placeholder="Mobile" />
+      <input type="number" id="number" placeholder="Telephone" />
+      <h2>Address</h2>
+      <label for="Street_number">Street number: </label>
+      <input
+        type="Street_number"
+        id="Street_number"
+        style="width: 100px"
+      /><br />
+      <label for="Street_name">Street name: </label>
+      <input type="Street_name" id="Street_name" /><br />
+      <label for="Barangay">Barangay: </label>
+      <input type="Barangay" id="Barangay" /><br />
+      <label for="City_Town">City/Town: </label>
+      <input type="City_Town" id="City_Town" /><br />
+      <label for="Province">Province: </label>
+      <input type="Province" id="Province" /><br />
+      <label for="Full_address">Full address: </label>
+      <input type="Full_address" id="Full_address" style="width: 400px" /><br />
+      <h2>Government information</h2>
+      <label for="sss_id">SSS ID: </label><br />
+      <input type="sss_id" id="sss_id" /><br />
+      <label for="pag_ibig_id">Pag-Ibig ID: </label><br />
+      <input type="pag_ibig_id" id="pag_ibig_id" /><br />
+      <label for="philhealth_id">PhilHealth ID: </label><br />
+      <input type="philhealth_id" id="philhealth_id" /><br />
+      <br />
+      <label for="2x2_profile_pic">Upload 2x2 picture: </label>
+      <input type="file" name="2x2_profile_pic" accept="image/*" /><br />
+      <br />
+      <label for="id_pic">Upload picture of government ID: </label>
+      <input type="file" name="id_pic" accept="image/*" /><br />
+      <br />
+      <h2>Account information</h2>
+      <label for="username">Username: </label>
+      <input type="username" id="username" /><br />
+      <br />
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        style="width: 300px"
+      /><br />
+      <label for="con_password">Confirm password:</label><br />
+      <input
+        type="password"
+        id="con_password"
+        name="con_password"
+        style="width: 300px"
+      /><br />
+      <br />
+      <label for="prof_pic">Upload profile image: </label>
+      <input type="file" name="prof_pic" accept="image/*" /><br />
+      <br />
+      <p>
+        <b>Have you experienced any of the following in the last 30 days?</b>
+      </p>
+      <input type="checkbox" name="Coughing" />Coughing<br />
+      <input type="checkbox" name="Fever" />Fever<br />
+      <input type="checkbox" name="Headache" />Headache<br />
+      <input type="checkbox" name="Common cold" />Common cold<br />
+      <input type="checkbox" name="Body ache" />Body ache<br />
+      <input type="checkbox" name="Sore throat" />Sore throat<br />
+      <input type="checkbox" name="Tiredness" />Tiredness<br />
+      <input type="checkbox" name="Loss of smell" />Loss of smell<br />
+      <br />
+      <br />
+      <textarea
+        id="description"
+        name="description"
+        placeholder="Give a short description about yourself."
+        style="width: 500px"
+        rows="10"
+      ></textarea
+      ><br />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
